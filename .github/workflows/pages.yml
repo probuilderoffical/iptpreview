@@ -30,7 +30,7 @@ jobs:
       - name: Extract website ZIP
         run: |
           mkdir -p site
-          unzip -q iptpreview-ready.zip -d site
+          unzip -q IPT-ENGG-Logo-Updated-Static.zip -d site
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
